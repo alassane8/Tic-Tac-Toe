@@ -25,7 +25,7 @@ Run Your Java Program:
 After successfully compiling your code, use the java command to run your Java program. For example:
 
 ```bash
-java tictactoe
+java Tic-Tac-Toe
 ```
 
 Make sure not to include the .class extension when running the program.
@@ -39,7 +39,7 @@ If you're using an IDE like Eclipse, IntelliJ, or NetBeans, the process may vary
 Here are general steps to download the Oracle JDK:
 
 - Visit the Oracle JDK Download Page:
-Go to the Oracle JDK download page: Oracle JDK Download.
+Go to the Oracle JDK download page: https://www.oracle.com/java/technologies/downloads/.
 
 - Accept the License Agreement:
 On the download page, you will find a section with Oracle JDK versions. Scroll down, find the version you want to download, and accept the license agreement by clicking the checkbox.
