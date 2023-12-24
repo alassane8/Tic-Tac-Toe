@@ -1,0 +1,29 @@
+{
+    "version": "2",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "javac",
+            "args": [
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run",
+            "type": "shell",
+            "command": "java",
+            "args": [
+                "${fileNoExt}"
+            ],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}
