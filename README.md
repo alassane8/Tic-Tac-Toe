@@ -12,7 +12,7 @@ git clone https://github.com/alassane8/Tic-Tac-Toe.git
 ```
 Navigate to the directory 
 ```bash
-cd Tic-Tac-Toe
+cd Tic-Tac-Toe/code/
 ```
 Run the game:
 ```bash
