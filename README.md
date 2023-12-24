@@ -1,35 +1,23 @@
 <h1 align="center">
   Alassane WADE Tic-Tac-Toe Game
-</h1>                                         
+</h1>  
+<h2 align="center">
                                        "⢸⣿⣷⣤⣤⣤⣬⣙⣛⢿⣿⣿⣿⣿⣿⣿⡿⣿⣿⡍⠄⠄⢀⣤⣄⠉⠋ "
+</h2>                                        
 
 ## Instructions
 Open a command prompt or terminal and clone the repository in the directory of your choice:
 ```bash
 git clone https://github.com/alassane8/Tic-Tac-Toe.git
 ```
-
 Navigate to the directory 
 ```bash
 cd Tic-Tac-Toe
 ```
-
-Use the javac command to compile your Java code. For example:
+Run the game:
 ```bash
-javac Tic-Tac-Toe.java
+java tictactoe.java
 ```
-
-This will generate a .class file containing the bytecode.
-
-Run Your Java Program:
-After successfully compiling your code, use the java command to run your Java program. For example:
-
-```bash
-java Tic-Tac-Toe
-```
-
-Make sure not to include the .class extension when running the program.
-
 Remember, the Java Development Kit (JDK) needs to be installed on your system for these commands to work. If it's not installed, you can download and install it from the official Oracle website or use an alternative like OpenJDK.
 
 If you're using an IDE like Eclipse, IntelliJ, or NetBeans, the process may vary slightly. You can typically run your program directly from the IDE without explicitly using the command line for compilation and execution.
