@@ -23,7 +23,7 @@ Remember, the Java Development Kit (JDK) needs to be installed on your system fo
 
 If you're using an IDE like Eclipse, IntelliJ, or NetBeans, the process may vary slightly. You can typically run your program directly from the IDE without explicitly using the command line for compilation and execution.
 
-Here are general steps to download the Oracle JDK:
+### Here are general steps to download the Oracle JDK:
 
 - Visit the Oracle JDK Download Page:
 Go to the Oracle JDK download page: https://www.oracle.com/java/technologies/downloads/.
