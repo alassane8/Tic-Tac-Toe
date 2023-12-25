@@ -12,11 +12,11 @@ git clone https://github.com/alassane8/Tic-Tac-Toe.git
 ```
 Navigate to the directory 
 ```bash
-cd Tic-Tac-Toe/code/
+cd Tic-Tac-Toe/code
 ```
 Run the game:
 ```bash
-java tictactoe.java
+java Tictactoe.java
 ```
 ## How to install JDK
 Remember, the Java Development Kit (JDK) needs to be installed on your system for these commands to work. If it's not installed, you can download and install it from the official Oracle website or use an alternative like OpenJDK.
