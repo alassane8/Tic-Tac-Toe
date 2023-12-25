@@ -1,11 +1,11 @@
 import java.util.Random;
 import javax.swing.JOptionPane;
 
-public class tictactoe {
+public class Tictactoe {
     public int number;
     public char[][] Array;
 
-    public tictactoe(int num, char[][] array) {
+    public Tictactoe(int num, char[][] array) {
         number = num;
         Array = array;
     }
@@ -27,9 +27,6 @@ public class tictactoe {
         return display;
     }
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // Variables
         int num = 0;
@@ -45,7 +42,7 @@ public class tictactoe {
                 + "You will have X and the computer will have O.");
 
         // Display of the array that will be the grid for players
-        tictactoe tableau = new tictactoe(num, array);
+        Tictactoe tableau = new Tictactoe(num, array);
 
         for (int a = 0; a < 3; a++) {
             for (int b = 0; b < 3; b++) {
