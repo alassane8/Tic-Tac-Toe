@@ -26,3 +26,7 @@ java Tictactoe.java
 ```
 ## How to install JDK
 Remember, the Java Development Kit (JDK) needs to be installed on your system for these commands to work. If it's not installed, you can download and install it from the official Oracle website or use an alternative like OpenJDK.
+
+# Area for improvement
+Here, you can find the features I am currently working on in this repository.
+This allows you to be aware of the changes that are to come and see what needs to be improve. 
