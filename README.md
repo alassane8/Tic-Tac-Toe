@@ -5,12 +5,11 @@
                                        "⢸⣿⣷⣤⣤⣤⣬⣙⣛⢿⣿⣿⣿⣿⣿⣿⡿⣿⣿⡍⠄⠄⢀⣤⣄⠉⠋ "
 </h2>                                        
 
-
-<img width="100" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/firstimage.PNG">
-
-<img width="100" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/secondimage.PNG">
-
-<img width="100" alt="Screen Shot 2021-03-15 at 8 29 18 PM" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/thirdimage.PNG">
+<p align="center">
+  <img width="100" alt="First Image" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/firstimage.PNG">
+  <img width="100" alt="Second Image" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/secondimage.PNG">
+  <img width="100" alt="Third Image" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/thirdimage.PNG">
+</p>
 
 ## Instructions
 Open a command prompt or terminal and clone the repository in the directory of your choice:
