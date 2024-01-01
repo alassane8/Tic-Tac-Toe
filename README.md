@@ -6,9 +6,9 @@
 </h2>                                        
 
 <p align="center">
-  <img width="300" alt="First Image" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/firstimage.PNG">
-  <img width="300" alt="Second Image" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/secondimage.PNG">
-  <img width="300" alt="Third Image" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/thirdimage.PNG">
+  <img width="200" alt="First Image" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/firstimage.PNG">
+  <img width="200" alt="Second Image" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/secondimage.PNG">
+  <img width="200" alt="Third Image" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/thirdimage.PNG">
 </p>
 
 ## Instructions
