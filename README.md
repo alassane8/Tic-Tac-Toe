@@ -11,7 +11,7 @@
   <img width="200" alt="Third Image" src="https://github.com/alassane8/Tic-Tac-Toe/blob/main/code/images/thirdimage.PNG">
 </p>
 
-# Instructions
+## Instructions
 Open a command prompt or terminal and clone the repository in the directory of your choice:
 ```bash
 git clone https://github.com/alassane8/Tic-Tac-Toe.git
@@ -24,9 +24,9 @@ Run the game:
 ```bash
 java Tictactoe.java
 ```
-# How to install JDK
+## How to install JDK
 Remember, the Java Development Kit (JDK) needs to be installed on your system for these commands to work. If it's not installed, you can download and install it from the official Oracle website or use an alternative like OpenJDK.
 
-# Area for improvement
+## Area for improvement
 Here, you can find the features I am currently working on in this repository.
 This allows you to be aware of the changes that are to come and see what needs to be improve. 
