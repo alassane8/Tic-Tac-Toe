@@ -8,6 +8,7 @@ public class Tictactoe implements ActionListener {
     private boolean X = true;
     private JButton[] buttons = new JButton[9];
 
+    // Constructor
     public Tictactoe() {
         frame = new JFrame("TicTacToe game");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -17,7 +18,7 @@ public class Tictactoe implements ActionListener {
 
         for (int i = 0; i < 9; i++) {
             buttons[i] = new JButton();
-            buttons[i].setFont(new Font("Arial", Font.PLAIN, 40));
+            buttons[i].setFont(new Font("Arial", Font.PLAIN, 50));
             buttons[i].addActionListener(this);
             panel.add(buttons[i]);
         }
@@ -27,6 +28,7 @@ public class Tictactoe implements ActionListener {
         frame.setVisible(true);
     }
 
+    // Set the text of the buttons
     public void actionPerformed(ActionEvent event) {
         JButton Button = (JButton) event.getSource();
         if (X) {
@@ -41,6 +43,7 @@ public class Tictactoe implements ActionListener {
         checkTieGame();
     }
 
+    // Check for the winner each time a button is clicked
     public void checkForWinner() {
         for (int i = 0; i < 9; i += 3) {
             if (buttons[i].getText().equals(buttons[i + 1].getText())
@@ -76,6 +79,7 @@ public class Tictactoe implements ActionListener {
         }
     }
 
+    // Check if the game is tie
     public void checkTieGame() {
         boolean tie = true;
         for (int i = 0; i < 9; i++) {
@@ -90,6 +94,7 @@ public class Tictactoe implements ActionListener {
         }
     }
 
+    // Resets the game each time a win or a tie occurs
     public void resetGame() {
         for (int i = 0; i < 9; i++) {
             buttons[i].setText("");
