@@ -26,6 +26,19 @@ public class Tictactoe implements ActionListener {
         frame.setVisible(true);
     }
 
+    public void actionPerformed(ActionEvent event) {
+        JButton Button = (JButton) event.getSource();
+        if (X) {
+            Button.setText("X");
+        }
+        if (O) {
+            Button.setText("O");
+        }
+        Button.setEnabled(false);
+        X = !X;
+
+    }
+
     public static void main(String[] args) {
         new Tictactoe();
     }
