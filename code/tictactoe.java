@@ -38,10 +38,25 @@ public class Tictactoe implements ActionListener {
         X = !X;
 
         checkForWinner();
+        checkTieGame();
     }
 
     public void checkForWinner() {
 
+    }
+
+    public void checkTieGame() {
+        boolean tie = true;
+        for (int i = 0; i < 9; i++) {
+            if (buttons[i].isEnabled()) {
+                tie = false;
+                break;
+            }
+        }
+        if (tie) {
+            JOptionPane.showMessageDialog(frame, "Tie Game !");
+            resetGame();
+        }
     }
 
     public void resetGame() {
