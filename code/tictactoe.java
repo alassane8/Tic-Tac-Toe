@@ -5,6 +5,7 @@ import java.awt.event.*;
 public class Tictactoe implements ActionListener {
     private JFrame frame;
     private JPanel panel;
+    private boolean X = true;
     private JButton[] buttons = new JButton[9];
 
     public Tictactoe() {
@@ -30,8 +31,7 @@ public class Tictactoe implements ActionListener {
         JButton Button = (JButton) event.getSource();
         if (X) {
             Button.setText("X");
-        }
-        if (O) {
+        } else {
             Button.setText("O");
         }
         Button.setEnabled(false);
@@ -42,7 +42,38 @@ public class Tictactoe implements ActionListener {
     }
 
     public void checkForWinner() {
-
+        for (int i = 0; i < 9; i += 3) {
+            if (buttons[i].getText().equals(buttons[i + 1].getText())
+                    && buttons[i].getText().equals(buttons[i + 2].getText())
+                    && !buttons[i].isEnabled()) {
+                JOptionPane.showMessageDialog(frame, buttons[i].getText() + " wins !");
+                resetGame();
+                return;
+            }
+        }
+        for (int i = 0; i < 3; i++) {
+            if (buttons[i].getText().equals(buttons[i + 3].getText())
+                    && buttons[i].getText().equals(buttons[i + 6].getText())
+                    && !buttons[i].isEnabled()) {
+                JOptionPane.showMessageDialog(frame, buttons[i].getText() + " wins !");
+                resetGame();
+                return;
+            }
+        }
+        if (buttons[0].getText().equals(buttons[4].getText())
+                && buttons[0].getText().equals(buttons[8].getText())
+                && !buttons[0].isEnabled()) {
+            JOptionPane.showMessageDialog(frame, buttons[0].getText() + " wins !");
+            resetGame();
+            return;
+        }
+        if (buttons[2].getText().equals(buttons[4].getText())
+                && buttons[2].getText().equals(buttons[6].getText())
+                && !buttons[2].isEnabled()) {
+            JOptionPane.showMessageDialog(frame, buttons[2].getText() + " wins !");
+            resetGame();
+            return;
+        }
     }
 
     public void checkTieGame() {
