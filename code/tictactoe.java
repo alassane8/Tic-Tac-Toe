@@ -37,6 +37,19 @@ public class Tictactoe implements ActionListener {
         Button.setEnabled(false);
         X = !X;
 
+        checkForWinner();
+    }
+
+    public void checkForWinner() {
+
+    }
+
+    public void resetGame() {
+        for (int i = 0; i < 9; i++) {
+            buttons[i].setText("");
+            buttons[i].setEnabled(true);
+        }
+        X = true;
     }
 
     public static void main(String[] args) {
