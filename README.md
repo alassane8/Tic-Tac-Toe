@@ -2,7 +2,7 @@
   Alassane WADE Tic-Tac-Toe Game
 </h1>  
 <h2 align="center">
-                                       "⢸⣿⣷⣤⣤⣤⣬⣙⣛⢿⣿⣿⣿⣿⣿⣿⡿⣿⣿⡍⠄⠄⢀⣤⣄⠉⠋ "
+"⢀⡋⣡⣴⣶⣶⡀⠄⠄⠙⢿⣿⣿⣿⣿⣿⣴⣿⣿⣿⢃⣤⣄⣀⣥⣿⣿ "
 </h2>                                        
 
 <p align="center">
